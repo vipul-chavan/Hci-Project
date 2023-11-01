@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/register.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+      crossorigin="anonymous"
+    />
+
+    <title>Register At Worldmart</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Register At Us</h1>
+      </div>
+      <form class="form" id="form">
+        <div class="form-control">
+          <label>Name</label>
+          <input
+            type="text"
+            onchange="validate()"
+            id="name"
+            placeholder="Enter Your Name"
+            autocomplete="off"
+          />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error Msg </small>
+        </div>
+        <div class="form-control">
+          <label>Email </label>
+          <input
+            type="email"
+            onchange="validate()"
+            id="email"
+            placeholder="Enter Your Email Id "
+            autocomplete="off"
+          />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error Msg </small>
+        </div>
+
+        <div class="form-control">
+          <label>Mobile Number</label>
+          <input
+            type="number"
+            onchange="validate()"
+            id="mobnum"
+            placeholder="Enter Your Mobile Number"
+            autocomplete="off"
+          />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error Msg </small>
+        </div>
+        <div class="form-control">
+          <label>City</label>
+          <input
+            type="text"
+            onchange="validate()"
+            id="city"
+            placeholder="Enter Your City"
+            autocomplete="off"
+          />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error Msg </small>
+        </div>
+        <div class="form-control">
+          <label>Username</label>
+          <input
+            type="text"
+            onchange="validate()"
+            id="uname"
+            placeholder="Enter Your UserName"
+            autocomplete="off"
+          />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error Msg </small>
+        </div>
+        <div class="form-control">
+          <label>Password</label>
+          <input
+            type="password"
+            onchange="validate()"
+            id="pass"
+            placeholder="Enter Your Password"
+            autocomplete="off"
+          />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error Msg </small>
+        </div>
+        <div class="form-control">
+          <label>Confirm Password</label>
+          <input
+            type="password"
+            onchange="validate()"
+            id="confpass"
+            placeholder="Confirm Your Password"
+            autocomplete="off"
+          />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error Msg </small>
+        </div>
+        <div class="flex">
+
+          <a href="product2.html" style="text-decoration: none">
+          <input type="button" value="Submit" class="btn" name="" />
+          </a>
+
+          <a href="index.html" style="text-decoration: none">
+            <input type="cancel" value=" Cancel " class="btn" name="" />
+          </a>
+        </div>
+        <br />
+        <div class="loginat">
+          <h1>Already Registered ? <a href="login.html"> Login Here </a></h1>
+        </div>
+      </form>
+    </div>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
